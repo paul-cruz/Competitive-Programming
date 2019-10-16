@@ -1,0 +1,30 @@
+A Symmetrical Pizza
+By Mario Silva BR Brazil
+
+Timelimit: 1
+Bob has a symmetry craze. Everything in his life must be symmetric: his house, his clothes, his car, even his food. And pizza is no exception. For him to eat a pizza, all the toppings, like tomatoes, olives, pepperoni or basil, must be arranged with some degree of rotational symmetry. This evening Bob ordered some pizza. As usual, when it arrived, he asked the delivery driver to demonstrate that the pizza met his demands for rotational symmetry. The driver demonstrated the symmetry then, as they are trained to do, using the following procedure:
+
+	» take a picture of the pizza with a cellphone;
+	» rotate the pizza by R degrees around its center;
+	» take another picture;
+	» show Bob the two pictures side by side, so that he sees that the pizza appears identical in both.
+	
+Satisfied, Bob paid for the pizza and took it to the kitchen. In order to test his brand new laser pizza cutter, he decided to cut the pizza in as many slices as possible. Of course, Bob wants to cut the slices in a way that all of them look exactly the same, in accordance with another of his crazes. Now given the angle R of the symmetry demonstration, Bob wants to know the maximum amount of equal slices he can cut the pizza in.
+
+Input
+The input consists of a single line that contains a rational number R (0 < R < 360) indicating the angle of the rotational symmetry demonstration. This number has exactly two digits after the decimal point.
+
+Output
+Output a single line with an integer representing the maximum amount of equal slices Bob can cut the pizza in, based on the provided information
+
+Input and Output examples
+
+╔══════════════════════════════╗
+║ Input         ║   Output     ║
+║ 45.00         ║   8          ║
+║ 180.00        ║   2          ║
+║ 240.00        ║   3          ║
+║ 35.00         ║   72         ║
+║ 2.50          ║   144        ║
+║ 11.34         ║   2000       ║
+╚══════════════════════════════╝
