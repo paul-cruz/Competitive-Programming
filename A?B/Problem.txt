@@ -1,0 +1,25 @@
+Description
+Given two numbers A and B,perform the following calculations:
+A + B
+A-B
+A * B
+A / B
+A mod B
+
+Input
+The only input line has two separate integers A and B.
+
+Outpu
+Write the results of the calculations, one per line.
+
+Example
+╔══════════════════════════════╗
+║ Input         ║   Output     ║
+║ 15 5          ║   20         ║
+║               ║   10         ║
+║               ║   75         ║
+║               ║   3          ║
+║               ║   0          ║
+╚══════════════════════════════╝
+Limits
+1 <= A, B <= 50
